@@ -1,0 +1,6 @@
+gradio>=3.40
+ultralytics>=8.0.0
+opencv-python
+gTTS
+moviepy
+numpy
