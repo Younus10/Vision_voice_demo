@@ -1,15 +1,8 @@
-Ah, perfect! That’s actually a **key context** that makes your project more meaningful. You can include a **“Concept / Motivation”** section to explain the idea behind the project — basically how it mimics “smart spectacles” for visually impaired users.
-
-Here’s a **full polished README** ready for copy-paste, including that section:
-
----
-
-````markdown
-# YOLO Video Analysis with Voice Summary
+# YOLO Video Analysis with Voice Summary 🎥🗣️
 
 ## Concept / Motivation
-This project demonstrates a prototype of **smart spectacles** that can help visually impaired users understand their surroundings.  
-By uploading a short video (simulating what the spectacles capture), the system:
+This project demonstrates a **prototype of smart spectacles** that help visually impaired users understand their surroundings.  
+By analyzing a short video (simulating what the spectacles capture), the system:
 
 - Detects objects in the scene.
 - Provides a **friendly text description** of what’s around.
@@ -34,7 +27,7 @@ It uses **YOLOv8 (medium)** for object detection, OpenCV for video processing, a
 - Extracts key frames from the video for faster processing.
 - Enhances brightness & contrast of frames for better detection.
 - Detects multiple objects and aggregates them into a human-readable summary.
-- Generates **friendly text summaries** like:  
+- Generates **friendly text summaries**, e.g.:  
   *"It looks like you're near a bottle, a mouse, and a cell phone."*
 - Converts the summary to audio using `gTTS`.
 - Displays **annotated frames** with bounding boxes and labels.
@@ -71,7 +64,7 @@ python app.py
 * Open `http://127.0.0.1:7860` in your browser.
 * Upload a short video (mp4 recommended).
 * Click **Process Video**.
-* View the annotated frame, text summary, and listen to the audio narration.
+* View the annotated frame, read the text summary, and listen to the audio narration.
 
 ---
 
@@ -115,14 +108,5 @@ MIT License
 
 ```
 
----
 
-This version:  
-- Explains the **smart spectacles concept**.  
-- Shows practical **installation, usage, and customization** steps.  
-- Maintains **professional readability** for GitHub.  
-
-If you want, I can also **rewrite it with emojis and nicer Markdown formatting** to make it **look more modern and visually appealing** for GitHub users.  
-
-Do you want me to do that?
 ```
