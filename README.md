@@ -39,7 +39,7 @@ It uses **YOLOv8 (medium)** for object detection, OpenCV for video processing, a
 
 ### Example 1: High-Quality Video
 **Input:**  
-![High-Quality Input]
+High-Quality Input
 
 **Output:**  
 <img width="1710" height="1031" alt="Screenshot 2025-10-14 at 8 43 06 PM" src="https://github.com/user-attachments/assets/902a61cc-68a6-44c0-8b58-fa3da6b9edd3" />
@@ -48,7 +48,7 @@ It uses **YOLOv8 (medium)** for object detection, OpenCV for video processing, a
 **Text Summary:**  
 ```
 
-It looks like you're near a bottle, a mouse, and a cell phone.
+Seems like there's a mouse, a keyboard, a chair, a potted plant, an apple, a Water bottle and a laptop.
 
 ```
 
@@ -60,15 +60,16 @@ It looks like you're near a bottle, a mouse, and a cell phone.
 
 ### Example 2: Blurry / Low-Quality Video
 **Input:**  
-![Blurry Input](assets/blurry_video.jpg)
+Blurry Input
 
 **Output Annotated Frame:**  
-![Annotated Output](assets/blurry_output.jpg)
+<img width="1710" height="1031" alt="Screenshot 2025-10-14 at 9 25 56 PM" src="https://github.com/user-attachments/assets/5d87fc79-c8ad-470d-9517-bf13a7750816" />
+
 
 **Text Summary:**  
 ```
+It looks like you're near a car, a person, a suitcase, a wine glass, and a umbrella.
 
-I couldn't detect any familiar objects in the video.
 
 ```
 
@@ -76,21 +77,6 @@ I couldn't detect any familiar objects in the video.
 - Blurry or low-resolution videos reduce detection accuracy.  
 - Some objects may be missed or misclassified, showing the importance of video quality.
 
----
-
-### Example 3: Mixed Scenario Video
-**Input:**  
-![Mixed Input](assets/mixed_video.jpg)
-
-**Output Annotated Frame:**  
-![Annotated Output](assets/mixed_output.jpg)
-
-**Text Summary:**  
-```
-
-It appears there’s a bottle, a laptop, and a mouse.
-
-````
 
 **Observation:**  
 - Partial clarity in the video still allows detection of major objects.  
