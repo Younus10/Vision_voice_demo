@@ -1,3 +1,4 @@
+
 # YOLO Video Analysis with Voice Summary 🎥🗣️
 
 ## Concept / Motivation
@@ -31,6 +32,69 @@ It uses **YOLOv8 (medium)** for object detection, OpenCV for video processing, a
   *"It looks like you're near a bottle, a mouse, and a cell phone."*
 - Converts the summary to audio using `gTTS`.
 - Displays **annotated frames** with bounding boxes and labels.
+
+---
+
+## Working Examples / Use Cases
+
+### Example 1: High-Quality Video
+**Input:**  
+![High-Quality Input]
+
+**Output:**  
+<img width="1710" height="1031" alt="Screenshot 2025-10-14 at 8 43 06 PM" src="https://github.com/user-attachments/assets/902a61cc-68a6-44c0-8b58-fa3da6b9edd3" />
+
+
+**Text Summary:**  
+```
+
+It looks like you're near a bottle, a mouse, and a cell phone.
+
+```
+
+**Observation:**  
+- High-resolution and clear videos result in **accurate detection** of multiple objects.  
+- Bounding boxes align well with objects, and the summary is precise.
+
+---
+
+### Example 2: Blurry / Low-Quality Video
+**Input:**  
+![Blurry Input](assets/blurry_video.jpg)
+
+**Output Annotated Frame:**  
+![Annotated Output](assets/blurry_output.jpg)
+
+**Text Summary:**  
+```
+
+I couldn't detect any familiar objects in the video.
+
+```
+
+**Observation:**  
+- Blurry or low-resolution videos reduce detection accuracy.  
+- Some objects may be missed or misclassified, showing the importance of video quality.
+
+---
+
+### Example 3: Mixed Scenario Video
+**Input:**  
+![Mixed Input](assets/mixed_video.jpg)
+
+**Output Annotated Frame:**  
+![Annotated Output](assets/mixed_output.jpg)
+
+**Text Summary:**  
+```
+
+It appears there’s a bottle, a laptop, and a mouse.
+
+````
+
+**Observation:**  
+- Partial clarity in the video still allows detection of major objects.  
+- Some smaller or obscured objects may not be recognized.
 
 ---
 
@@ -106,7 +170,3 @@ pip install -r requirements.txt
 
 MIT License
 
-```
-
-
-```
